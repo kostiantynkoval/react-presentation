@@ -9,7 +9,7 @@ const Link = ({ className, children }) => (
 )
 
 const StyledLink = styled(Link)`
-  color: palevioletred;
+  color: ${props => props.theme.linkColor};
   font-weight: bold;
 `;
 

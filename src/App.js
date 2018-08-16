@@ -9,12 +9,14 @@ import { Button, ButtonExtended } from './ButtonStyled';
 
 const darkTheme = {
     bgColor: '#0d0c44',
-    textColor: 'skyblue'
+    textColor: 'skyblue',
+    linkColor: 'violet'
 }
 
 const brightTheme = {
     bgColor: 'pink',
-    textColor: 'red'
+    textColor: 'red',
+    linkColor: 'pink'
 }
 
 class App extends Component {
